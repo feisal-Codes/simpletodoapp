@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(118, 165, 206);
+  color: rgb(3, 68, 68);
+}
+.flex {
+  display: flex;
+  width: 60%;
+  align-items: center;
+
+  flex-direction: column;
+  background-color: rgb(217, 231, 243);
+
+  height: 98vh;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+#today {
+  text-decoration: underline;
+}
+#third-sec {
+  position: fixed;
+  bottom: 100px;
+  width: 28rem;
+  text-align: center;
+}
+#button {
+  border-style: none;
+  background-color: rgb(164, 164, 236);
+  margin-top: 1rem;
+  font-weight: bold;
+}
+header h2 {
+  text-decoration: underline;
+}
+
+#task {
+  width: 100%;
+}
+
+.checked {
+  text-decoration: line-through;
+  font-style: italic;
+  color: rgb(22, 235, 235);
+}
